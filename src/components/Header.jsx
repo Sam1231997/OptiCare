@@ -38,8 +38,8 @@ const Header = () => {
         {isOpen && (
           <div className="md:hidden">
             <nav className="flex flex-col space-y-2 py-4 font-bold">
-              <a href="#home" className="text-gray-600 hover:text-blue-600">Home</a>
-              <a href="#services" className="text-gray-600 hover:text-blue-600">About us</a>
+              <Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link>
+              <Link to="/about" className="text-gray-600 hover:text-blue-600">About us</Link>
               <a href="#about" className="text-gray-600 hover:text-blue-600">Services</a>
               <a href="#contact" className="text-gray-600 hover:text-blue-600">Diseases & Conditions</a>
               <a href="#contact" className="text-gray-600 hover:text-blue-600">Contact us</a>
